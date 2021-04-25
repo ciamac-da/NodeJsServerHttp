@@ -37,12 +37,8 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency
-node_modules
-
 # Dependency directories
 node_modules/
-**/node_modules
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -82,6 +78,7 @@ web_modules/
 
 # Next.js build output
 .next
+out
 
 # Nuxt.js build / generate output
 .nuxt
@@ -112,9 +109,8 @@ dist
 .vscode-test
 
 # yarn v2
-
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
+.yarn/install-state.gz
 .pnp.*
-!*/
